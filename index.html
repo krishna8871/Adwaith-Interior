@@ -7,7 +7,7 @@
     
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#4f46e5">
-    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="apple-touch-icon" href="https://i.postimg.cc/kGQ36PN4/Adwaith-Interiors.png">
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
@@ -84,7 +84,7 @@
 <body>
 
     <div class="card">
-        <img src="logo.png" alt="Adwaith Interiors" class="logo" onerror="this.src='https://i.postimg.cc/kGQ36PN4/Adwaith-Interiors.png'">
+        <img src="https://i.postimg.cc/kGQ36PN4/Adwaith-Interiors.png" alt="Adwaith Interiors" class="logo">
         
         <h1>Quotation Generator</h1>
         <p>Welcome to the Adwaith Interiors portal. Tap below to launch the live application.</p>
@@ -94,7 +94,7 @@
         <div class="install-instructions">
             <strong>📲 How to install as an App:</strong><br>
             1. Depending on your phone, you may see an "Install App" popup at the bottom of the screen.<br>
-            2. If not, tap your browser menu and select <b>"Add to Home Screen"</b> or <b>"Install App"</b>.
+            2. If not, tap your browser menu (⋮) and select <b>"Add to Home Screen"</b> or <b>"Install App"</b>.
         </div>
     </div>
 
@@ -103,7 +103,7 @@
             window.addEventListener('load', () => {
                 navigator.serviceWorker.register('./sw.js')
                     .then((registration) => {
-                        console.log('Service Worker registered with scope:', registration.scope);
+                        console.log('Service Worker registered');
                     })
                     .catch((error) => {
                         console.error('Service Worker registration failed:', error);
