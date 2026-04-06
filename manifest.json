@@ -1,0 +1,23 @@
+{
+  "name": "Adwaith Interiors Quotation Tool",
+  "short_name": "Adwaith Quotes",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f1f5f9",
+  "theme_color": "#4f46e5",
+  "description": "Generate and manage interior design quotations.",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/kGQ36PN4/Adwaith-Interiors.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.postimg.cc/kGQ36PN4/Adwaith-Interiors.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
